@@ -15,6 +15,8 @@ The model requires as input the following information: 1. EoU product collection
 
 This model generates the following outputs (under tested conditions): 1. Critical material recovery potential 2. Net financial benefits projections for firms participating in the secondary materials market 3. Potential for net avoided environmental impacts. 
 
+The model is validated against empirical measurement values via sensitivity and uncertainty analyses. This is discussed in section 2.8 of the accompanying manuscript available here: https://doi.org/10.1016/j.resconrec.2026.109115.
+
 How to use:
 The executable code of this model is written in the Python language and is available as .ipynb file which can be run using Jupyter notebook or Google Colab. The code script is divided into cells. The code uses multiple open-source Python libraries which are imported in cell titled Model Parameters. To run this code please ensure that all the libraries which need to be imported are installed. Installation instructions for each library can be found in their freely available documentations. The ABM is executed using the Mesa library (please installed version 2.3.2 to use the current version of the code).
 
